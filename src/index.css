@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #07111F;
+    color: #F1F5F9;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-feature-settings: 'tnum' on, 'zero' on;
+  }
+}
+
+/* Subtle industrial ambient gradient */
+.bg-industrial-canvas {
+  background: radial-gradient(circle at 50% 0%, #0B1726 0%, #07111F 70%);
+}
+
+/* Very subtle blueprint line texture */
+.bg-subtle-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(34, 52, 74, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(34, 52, 74, 0.25) 1px, transparent 1px);
+}
+
+/* Custom industrial scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+::-webkit-scrollbar-thumb {
+  background: #22344A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334862;
+}

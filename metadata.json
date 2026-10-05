@@ -1,0 +1,6 @@
+{
+  "name": "MineGuard AI",
+  "description": "AI-Powered Underground Mine Safety, Monitoring & Rescue System for Jharkhand Coal Mines (SIH Problem 26039)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
